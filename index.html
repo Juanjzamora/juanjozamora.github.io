@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Juan José Zamora | Software Engineer & HealthTech</title>
+  <style>
+    :root {
+      --primary: #2563eb;
+      --dark: #1e293b;
+      --light: #f8fafc;
+      --gray: #64748b;
+    }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    body {
+      background-color: var(--light);
+      color: var(--dark);
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+    header {
+      text-align: center;
+      padding: 3rem 0;
+      background: linear-gradient(135deg, var(--primary), #1e40af);
+      color: white;
+      border-radius: 12px;
+      margin-bottom: 2rem;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+    .subtitle {
+      font-size: 1.2rem;
+      opacity: 0.9;
+      margin-bottom: 1.5rem;
+    }
+    .contact {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+    }
+    .contact a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .contact a:hover {
+      text-decoration: underline;
+    }
+    section {
+      background: white;
+      padding: 2rem;
+      border-radius: 12px;
+      margin-bottom: 2rem;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    }
+    h2 {
+      color: var(--primary);
+      margin-bottom: 1.5rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 3px solid var(--primary);
+    }
+    .highlight {
+      background-color: #dbeafe;
+      padding: 0.25rem 0.5rem;
+      border-radius: 4px;
+      font-weight: 600;
+    }
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 1.5rem;
+      margin-top: 1rem;
+    }
+    .skill-category {
+      background: #f1f5f9;
+      padding: 1.5rem;
+      border-radius: 8px;
+    }
+    .skill-category h3 {
+      color: var(--dark);
+      margin-bottom: 1rem;
+      font-size: 1.1rem;
+    }
+    .skill-category ul {
+      list-style: none;
+    }
+    .skill-category li {
+      padding: 0.25rem 0;
+      border-left: 3px solid var(--primary);
+      padding-left: 0.75rem;
+    }
+    .experience-item {
+      margin-bottom: 1.5rem;
+      padding-bottom: 1.5rem;
+      border-bottom: 1px dashed var(--gray);
+    }
+    .experience-item:last-child {
+      border-bottom: none;
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+    .job-title {
+      font-size: 1.3rem;
+      font-weight: 700;
+      color: var(--dark);
+    }
+    .company {
+      font-weight: 600;
+      color: var(--primary);
+      margin: 0.25rem 0;
+    }
+    .date {
+      color: var(--gray);
+      font-style: italic;
+      margin-bottom: 0.75rem;
+    }
+    .achievements li {
+      margin-bottom: 0.5rem;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      color: var(--gray);
+      font-size: 0.9rem;
+    }
+    @media (max-width: 768px) {
+      .container {
+        padding: 1rem;
+      }
+      h1 {
+        font-size: 2rem;
+      }
+      .skills-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Juan José Zamora Morantes</h1>
+      <div class="subtitle">Software Engineer | Field Service Expert | HealthTech Innovator</div>
+      <div class="contact">
+        <a href="mailto:juanjzamoramorantes@outlook.com">📧 juanjzamoramorantes@outlook.com</a>
+        <a href="https://linkedin.com/in/juan-jos%C3%A9-zamora-morantes-1b0380148" target="_blank">🔗 LinkedIn</a>
+        <a href="https://github.com/juanjozamora" target="_blank">🐙 GitHub</a>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <section>
+      <h2>Perfil Profesional</h2>
+      <p>Ingeniero de Software en etapa final de formación (<span class="highlight">graduación marzo 2026</span>) con <span class="highlight">14 años de experiencia</span> como Service Engineer Professional y Field Engineer en B. Braun Medical. Especializado en garantizar la operatividad de <span class="highlight">2,000+ equipos médicos críticos</span> (bombas de infusión Infusomat®/Perfusor®) en hospitales de Bogotá y región.</p>
+      <p>Combino dominio técnico de dispositivos clínicos con formación en <span class="highlight">Big Data y Analítica</span> para diseñar soluciones tecnológicas con comprensión real de flujos sanitarios. Capacité a <span class="highlight">200+ profesionales clínicos y biomédicos</span>, reduciendo errores operativos en un 15%.</p>
+    </section>
+
+    <section>
+      <h2>Experiencia Destacada</h2>
+      
+      <div class="experience-item">
+        <div class="job-title">Service Engineer Professional / Field Engineer</div>
+        <div class="company">B. Braun Medical S.A.</div>
+        <div class="date">Febrero 2013 – Enero 2026 | Bogotá, Colombia</div>
+        <ul class="achievements">
+          <li>✅ Responsable de cartera de <span class="highlight">2,000+ equipos médicos</span> en región Andina con <span class="highlight">95% disponibilidad operativa</span></li>
+          <li>✅ <span class="highlight">400+ intervenciones anuales</span> en UCIs, emergencias y quirófanos; resolución de fallas críticas en &lt;24 horas</li>
+          <li>✅ Auditorías <span class="highlight">100% conformes</span> (ISO 13485, INVIMA) durante 5 años consecutivos</li>
+          <li>✅ Capacitación a <span class="highlight">200+ profesionales</span> (biomédicos + clínicos), reduciendo errores operativos en 15%</li>
+          <li>✅ Certificación <span class="highlight">Aesculap Training Program ELAN 4 Repairs</span> (2024) - Sistemas motores quirúrgicos de alta precisión</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Habilidades Técnicas</h2>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h3>📊 Análisis de Datos</h3>
+          <ul>
+            <li>SQL</li>
+            <li>Python (Pandas)</li>
+            <li>Tableau</li>
+            <li>Power BI</li>
+            <li>Google Sheets</li>
+            <li>Excel Avanzado</li>
+          </ul>
+        </div>
+        <div class="skill-category">
+          <h3>🏥 Dispositivos Médicos</h3>
+          <ul>
+            <li>Infusomat Space/Plus</li>
+            <li>Perfusor Space</li>
+            <li>Enterosorb Plus</li>
+            <li>Aesculap ELAN 4</li>
+            <li>Diagnóstico en Campo</li>
+            <li>Calibración</li>
+            <li>Troubleshooting</li>
+          </ul>
+        </div>
+        <div class="skill-category">
+          <h3>⚙️ Normativas y Herramientas</h3>
+          <ul>
+            <li>ISO 13485</li>
+            <li>INVIMA</li>
+            <li>SAP</li>
+            <li>ServiceMax Lightning</li>
+            <li>Microsoft Office</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Formación Académica</h2>
+      <div class="experience-item">
+        <div class="job-title">Especialización en Analítica y Big Data</div>
+        <div class="company">Corporación Universitaria Iberoamericana</div>
+        <div class="date">Septiembre 2024 – Junio 2026 (en curso)</div>
+      </div>
+      <div class="experience-item">
+        <div class="job-title">Ingeniería de Software</div>
+        <div class="company">Corporación Universitaria Iberoamericana</div>
+        <div class="date">Julio 2021 – Marzo 2026 (graduación estimada)</div>
+      </div>
+      <div class="experience-item">
+        <div class="job-title">Tecnólogo en Mantenimiento de Equipos Médicos</div>
+        <div class="company">SENA</div>
+        <div class="date">2010 – 2012</div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Certificaciones</h2>
+      <div class="experience-item">
+        <div class="job-title">Google Data Analytics Professional Certificate</div>
+        <div class="company">Coursera</div>
+        <div class="date">Febrero 2024 – Agosto 2024 (en progreso)</div>
+        <p>Proyecto: Análisis de patrones de fallas en bombas de infusión usando SQL y Tableau</p>
+      </div>
+      <div class="experience-item">
+        <div class="job-title">Aesculap Training Program ELAN 4 Repairs</div>
+        <div class="company">Aesculap AG (B. Braun Group)</div>
+        <div class="date">2024</div>
+        <p>Capacitación en sistemas motores quirúrgicos de alta precisión bajo estándares europeos</p>
+      </div>
+      <div class="experience-item">
+        <div class="job-title">Certificado MOOC Excel Intermedio</div>
+        <div class="company">Corporación Universitaria Iberoamericana</div>
+        <div class="date">Febrero 2026</div>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <div class="container">
+      <p>© 2026 Juan José Zamora Morantes | Bogotá, Colombia</p>
+      <p>Portfolio construido con ❤️ usando GitHub Pages</p>
+    </div>
+  </footer>
+</body>
+</html>
